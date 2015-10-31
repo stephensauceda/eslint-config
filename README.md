@@ -5,3 +5,23 @@
 An ESLint config for my personal projects
 
 *originally forked from [Kent C. Dodds](https://github.com/kentcdodds/eslint-config-kentcdodds/releases)*
+
+## Installation
+```
+npm install --save-dev eslint eslint-config-stephensauceda
+```
+
+## Usage
+In your `.eslintrc`, enter:
+
+```javascript
+{
+  "extends": "stephensauceda",
+  "rules": {
+    // if you want to override any of the rules enter them here
+  }
+}
+```
+
+## License
+MIT
