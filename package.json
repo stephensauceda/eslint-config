@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-stephensauceda",
+  "version": "1.0.0",
+  "description": "An ESLint config for my personal projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephensauceda/eslint-config-stephensauceda.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "config",
+    "javascript",
+    "stephensauceda"
+  ],
+  "author": "Stephen Sauceda <contact@stephensauceda.com> (http://stephensauceda.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephensauceda/eslint-config-stephensauceda/issues"
+  },
+  "homepage": "https://github.com/stephensauceda/eslint-config-stephensauceda#readme",
+  "peerDependencies": {
+    "eslint": "^1.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.8.0"
+  }
+}
