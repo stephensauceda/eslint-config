@@ -3,7 +3,7 @@ module.exports = {
     "quotes": [2, "single", "avoid-escape"],
     "no-use-before-define": [2, "nofunc"],
     "no-unused-expressions": 0,
-    "strict": 0,
+    "strict": [2, "global"],
     "new-cap": [2, {
       "newIsCap": true,
       "capIsNew": true,
@@ -15,7 +15,6 @@ module.exports = {
     "max-nested-callbacks": [2, 5],
     "indent": [2, 2, {"SwitchCase": 1}],
     "brace-style": [2, "1tbs"],
-    "spaced-line-comment": 0,
 
     // possible errors
     "space-infix-ops": 2,
@@ -41,7 +40,6 @@ module.exports = {
     "no-negated-in-lhs": 2,
     "no-obj-calls": 2,
     "no-regex-spaces": 2,
-    "no-reserved-keys": 0,
     "no-sparse-arrays": 2,
     "no-unreachable": 2,
     "no-unexpected-multiline": 2,
@@ -94,11 +92,11 @@ module.exports = {
     "no-sequences": 2,
     "no-throw-literal": 2,
     "no-void": 2,
-    "no-warning-comments": [2, {"terms": ["fixme"], "location": "anywhere"}],
+    "no-warning-comments": [1, {"terms": ["fixme"], "location": "anywhere"}],
     "no-with": 0,
     "radix": 2,
     "vars-on-top": 2,
-    "wrap-iife": [2, "inside"],
+    "wrap-iife": [2, "outside"],
     "yoda": 2,
 
     // variables
@@ -112,12 +110,12 @@ module.exports = {
     "no-unused-vars": [2, {"args": "after-used"}],
 
     // stylistic
-    "array-bracket-spacing": [2, "never"],
+    "array-bracket-spacing": [2, "always"],
     "camelcase": [2, {"properties": "always"}],
     "comma-spacing": [2, {"before": false, "after": true}],
     "comma-style": [2, "last"],
     "computed-property-spacing": [2, "never"],
-    "consistent-this": 0, // Too many use-cases for reassigning "this" to different values
+    "consistent-this": 0,
     "eol-last": 2,
     "func-names": 2,
     "func-style": [2, "declaration"],
@@ -153,12 +151,12 @@ module.exports = {
     "space-in-parens": [2, "never"],
     "space-return-throw-case": 2,
     "space-unary-ops": [2, {"words": true, "nonwords": false}],
-    "spaced-comment": 0,
+    "spaced-comment": [1, "always"],
     "wrap-regex": 0,
     "constructor-super": 2,
     "generator-star-spacing": [2, {"before": false, "after": true}],
     "no-this-before-super": 2,
-    "object-shorthand": [2, "properties"], // methods are optional so you can specify a name if you want
+    "object-shorthand": [2, "always"], // methods are optional so you can specify a name if you want
     "max-params": [2, 5],
     "no-bitwise": 2,
     "no-plusplus": 0,
