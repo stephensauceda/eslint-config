@@ -138,7 +138,7 @@ module.exports = {
     "no-trailing-spaces": [2, {"skipBlankLines": true}],
     "no-underscore-dangle": 0,
     "no-unneeded-ternary": 2,
-    "object-curly-spacing": [2, "never"],
+    "object-curly-spacing": [2, "always"],
     "one-var": [2, {"uninitialized": "always", "initialized": "never"}],
     "operator-assignment": 0, // readability on a case-by-case basis
     "operator-linebreak": [2, "after"],
