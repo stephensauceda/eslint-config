@@ -32,11 +32,15 @@
     "commitizen": "^2.3.0",
     "cz-conventional-changelog": "1.1.4",
     "eslint": "^1.8.0",
+    "ghooks": "^0.3.2",
     "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run test"
     }
   }
 }
