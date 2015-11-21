@@ -6,9 +6,9 @@ module.exports = {
     "strict": [2, "global"],
     "new-cap": [2, {
       "newIsCap": true,
-      "capIsNew": true,
+      "capIsNew": true
     }],
-    "comma-dangle": [2, "always-multiline"],
+    "comma-dangle": [2, "never"],
     "max-statements": [2, 30],
     "max-len": [2, 120, 2],
     "max-depth": [2, 4],
@@ -143,7 +143,7 @@ module.exports = {
     "padded-blocks": 0,
     "quote-props": [2, "as-needed"],
     "semi-spacing": [2, {"before": false, "after": true}],
-    "semi": [2, "never"],
+    "semi": [2, "always"],
     "sort-vars": 0,
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
@@ -159,16 +159,16 @@ module.exports = {
     "object-shorthand": [2, "always"], // methods are optional so you can specify a name if you want
     "max-params": [2, 5],
     "no-bitwise": 2,
-    "no-plusplus": 0,
+    "no-plusplus": 0
   },
   "env": {
     "browser": true,
     "es6": true,
-    "node": true,
+    "node": true
   },
   "ecmaFeatures": {
-    "modules": true,
+    "modules": true
   },
   "globals": {
-  },
-}
+  }
+};
