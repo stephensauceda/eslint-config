@@ -4,7 +4,7 @@
   "version": "0.0.0-semantically-released",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js",
+    "test": "eslint --fix index.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz"
   },
