@@ -107,7 +107,7 @@ module.exports = {
     "no-undef-init": 2,
     "no-undef": 2,
     "no-undefined": 0,
-    "no-unused-vars": [2, {"args": "after-used"}],
+    "no-unused-vars": [1],
 
     // stylistic
     "array-bracket-spacing": [2, "always"],
@@ -117,7 +117,7 @@ module.exports = {
     "computed-property-spacing": [2, "never"],
     "consistent-this": 0,
     "eol-last": 2,
-    "func-names": 2,
+    "func-names": 0,
     "func-style": [2, "declaration"],
     "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
     "lines-around-comment": 0,
