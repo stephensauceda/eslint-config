@@ -42,9 +42,5 @@
     "ghooks": {
       "pre-commit": "npm run test"
     }
-  },
-  "dependencies": {
-    "babel-eslint": "^4.1.8",
-    "eslint-plugin-react": "^3.16.1"
   }
 }
