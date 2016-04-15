@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/stephensauceda/eslint-config-stephensauceda#readme",
   "peerDependencies": {
-    "eslint": "^1.8.0"
+    "eslint": "^2.0.0"
   },
   "devDependencies": {
     "commitizen": "^2.3.0",
