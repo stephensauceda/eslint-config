@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/stephensauceda/eslint-config-stephensauceda#readme",
   "peerDependencies": {
-    "eslint": "^2.0.0"
+    "eslint": "^2.9.0"
   },
   "devDependencies": {
-    "commitizen": "^2.3.0",
-    "cz-conventional-changelog": "1.1.4",
-    "eslint": "^2.0.0",
+    "commitizen": "^2.8.1",
+    "cz-conventional-changelog": "1.1.6",
+    "eslint": "^2.9.0",
     "ghooks": "^0.3.2",
     "semantic-release": "^4.3.5"
   },
@@ -44,8 +44,9 @@
     }
   },
   "dependencies": {
-    "babel-eslint": "^4.1.8",
+    "babel-eslint": "^6.0.4",
     "eslint-config-airbnb": "^7.0.0",
-    "eslint-plugin-react": "^4.3.0"
+    "eslint-plugin-react": "^4.3.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2"
   }
 }
