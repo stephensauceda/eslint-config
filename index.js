@@ -3,7 +3,8 @@ module.exports = {
   "extends": "airbnb",
   "plugins": ["react"],
   "rules": {
-    "comma-dangle": [2, "never"]
+    "comma-dangle": [2, "never"],
+    "semi": [2, "never"]
   },
   "env": {
     "browser": true,
@@ -16,4 +17,4 @@ module.exports = {
   },
   "globals": {
   }
-};
+}
