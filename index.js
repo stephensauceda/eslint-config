@@ -4,7 +4,8 @@ module.exports = {
   "plugins": ["react"],
   "rules": {
     "comma-dangle": [2, "never"],
-    "semi": [2, "never"]
+    "semi": [2, "never"],
+    "react/prefer-stateless-function": 1
   },
   "env": {
     "browser": true,
