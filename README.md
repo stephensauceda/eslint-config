@@ -23,5 +23,6 @@ In your `.eslintrc`, enter:
 }
 ```
 
+
 ## License
 MIT
