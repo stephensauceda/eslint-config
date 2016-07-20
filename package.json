@@ -1,12 +1,10 @@
 {
   "name": "eslint-config-stephensauceda",
   "description": "An ESLint config for my personal projects",
-  "version": "0.0.0-semantically-released",
+  "version": "8.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "eslint --fix index.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "commit": "git-cz"
+    "test": "eslint --fix index.js"
   },
   "repository": {
     "type": "git",
@@ -29,19 +27,7 @@
     "eslint": "^2.9"
   },
   "devDependencies": {
-    "commitizen": "^2.8.2",
-    "cz-conventional-changelog": "1.1.6",
-    "eslint": "^2.9",
-    "ghooks": "^1.3.2",
-    "semantic-release": "^4.3.5"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    },
-    "ghooks": {
-      "pre-commit": "npm run test"
-    }
+    "eslint": "^2.9"
   },
   "dependencies": {
     "babel-eslint": "^6.1.2",
