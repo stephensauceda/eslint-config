@@ -1,4 +1,4 @@
-{
+module.exports = {
   "extends": "./index.js",
   "rules": {
     "quotes": [2, "double"], // because I may want to move this config to an .eslintrc eventually...
