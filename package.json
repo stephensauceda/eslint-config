@@ -4,7 +4,7 @@
   "version": "10.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "eslint --fix index.js"
+    "test": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/stephensauceda/eslint-config-stephensauceda#readme",
   "peerDependencies": {
-    "eslint": "^4.1"
+    "eslint": "^5.8"
   },
   "devDependencies": {
-    "eslint": "^4.1"
+    "eslint": "^5.8"
   },
   "dependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint-plugin-react": "^7.1.0"
+    "babel-eslint": "^10.0.0",
+    "eslint-plugin-react": "^7.11.0"
   }
 }
