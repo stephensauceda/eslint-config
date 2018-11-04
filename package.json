@@ -1,7 +1,7 @@
 {
   "name": "@stephensauceda/eslint-config",
   "description": "An ESLint config for my personal projects",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "main": "index.js",
   "scripts": {
     "test": "eslint --fix ."
