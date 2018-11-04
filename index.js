@@ -2,6 +2,11 @@ module.exports = {
   parser: 'babel-eslint',
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   plugins: ['react'],
+  settings: {
+    react: {
+      version: '16.3'
+    }
+  },
   rules: {
     'comma-dangle': [2, 'never'],
     semi: [2, 'never'],
