@@ -16,7 +16,7 @@ In your `.eslintrc`, enter:
 
 ```javascript
 {
-  "extends": "stephensauceda",
+  "extends": "@stephensauceda",
   "rules": {
     // if you want to override any of the rules enter them here
   }
