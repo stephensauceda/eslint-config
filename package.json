@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-stephensauceda",
+  "name": "@stephensauceda/eslint-config",
   "description": "An ESLint config for my personal projects",
   "version": "11.0.0",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephensauceda/eslint-config-stephensauceda.git"
+    "url": "https://github.com/stephensauceda/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -20,9 +20,9 @@
   "author": "Stephen Sauceda <contact@stephensauceda.com> (http://stephensauceda.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stephensauceda/eslint-config-stephensauceda/issues"
+    "url": "https://github.com/stephensauceda/eslint-config/issues"
   },
-  "homepage": "https://github.com/stephensauceda/eslint-config-stephensauceda#readme",
+  "homepage": "https://github.com/stephensauceda/eslint-config#readme",
   "peerDependencies": {
     "eslint": "^5.8"
   },
