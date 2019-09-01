@@ -19,9 +19,9 @@ module.exports = {
   },
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
-      ecmaVersion: 2018
+      jsx: true
     },
+    ecmaVersion: 2018,
     sourceType: 'module'
   },
   globals: {}
