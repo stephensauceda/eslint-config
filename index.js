@@ -1,20 +1,15 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
-  plugins: ['react'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:prettier/recommended',
+    'prettier/react'
+  ],
+  plugins: ['react', 'prettier'],
   settings: {
     react: {
       version: '16.3'
     }
-  },
-  rules: {
-    'comma-dangle': [2, 'never'],
-    semi: [2, 'never'],
-    quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
-    'react/prefer-stateless-function': 1,
-    'react/no-did-update-set-state': 2,
-    'react/no-danger': 1,
-    'react/jsx-tag-spacing': 2,
-    'react/prefer-es6-class': 1
   },
   env: {
     browser: true,
@@ -29,6 +24,5 @@ module.exports = {
       sourceType: 'module'
     }
   },
-  globals: {
-  }
+  globals: {}
 }
