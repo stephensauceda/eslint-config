@@ -24,13 +24,12 @@
   },
   "homepage": "https://github.com/stephensauceda/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^5.8"
+    "eslint": "^6.0"
   },
   "devDependencies": {
-    "eslint": "^5.8"
+    "eslint": "^6.0"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.0",
-    "eslint-plugin-react": "^7.11.0"
+    "eslint-plugin-react": "^7.14.3"
   }
 }
